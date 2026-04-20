@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Footprynt</string>
+    <string name="track">TRACK</string>
+    <string name="reduce">REDUCE</string>
+    <string name="impact">IMPACT</string>
+</resources>
