@@ -23,7 +23,7 @@ class FootPryntApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(
           seedColor: Colors.green,
           primary: Colors.green[700],
-          secondary: Colors.emerald[600],
+          secondary: Colors.teal[600],
           surface: Colors.green[50],
         ),
         textTheme: const TextTheme(
