@@ -21,14 +21,14 @@ private val DarkColorScheme = darkColorScheme(
 private val LightColorScheme = lightColorScheme(
     primary = Color(0xFF22C55E),
     secondary = Color(0xFF0EA5E9),
-    tertiary = Color(0xFF121F33),
+    tertiary = Color(0xFF0B1222),
     background = Color.White,
     surface = Color.White,
     onPrimary = Color.White,
     onSecondary = Color.White,
     onTertiary = Color.White,
-    onBackground = Color(0xFF121F33),
-    onSurface = Color(0xFF121F33),
+    onBackground = Color(0xFF0B1222),
+    onSurface = Color(0xFF0B1222),
 )
 
 val Typography = Typography(
@@ -36,13 +36,15 @@ val Typography = Typography(
         fontFamily = FontFamily.Default,
         fontWeight = FontWeight.Bold,
         fontSize = 54.sp,
-        letterSpacing = (-1).sp
+        letterSpacing = (-1).sp,
+        color = Color(0xFF0B1222)
     ),
     labelSmall = TextStyle(
         fontFamily = FontFamily.Default,
         fontWeight = FontWeight.Medium,
-        fontSize = 12.sp,
-        letterSpacing = 4.sp
+        fontSize = 13.sp,
+        letterSpacing = 5.sp,
+        color = Color(0xFF64748B)
     )
 )
 

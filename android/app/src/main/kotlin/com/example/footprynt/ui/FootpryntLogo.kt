@@ -34,7 +34,7 @@ fun FootpryntLogo(modifier: Modifier = Modifier) {
         Text(
             text = stringResource(id = R.string.app_name),
             style = MaterialTheme.typography.displayMedium,
-            color = Color(0xFF121F33)
+            color = Color(0xFF0B1222)
         )
         
         Spacer(modifier = Modifier.height(16.dp))
@@ -46,19 +46,19 @@ fun FootpryntLogo(modifier: Modifier = Modifier) {
             Text(
                 text = stringResource(id = R.string.track),
                 style = MaterialTheme.typography.labelSmall,
-                color = Color(0xFF121F33)
+                color = Color(0xFF64748B)
             )
             Dot()
             Text(
                 text = stringResource(id = R.string.reduce),
                 style = MaterialTheme.typography.labelSmall,
-                color = Color(0xFF121F33)
+                color = Color(0xFF64748B)
             )
             Dot()
             Text(
                 text = stringResource(id = R.string.impact),
                 style = MaterialTheme.typography.labelSmall,
-                color = Color(0xFF121F33)
+                color = Color(0xFF64748B)
             )
         }
     }
